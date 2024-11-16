@@ -1,0 +1,11 @@
+server:
+  port: 8888 # Définit le port sur lequel votre config-server sera disponible
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitlab.com/......................#
+    compatibility-verifier:
+      enabled: false
